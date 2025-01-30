@@ -17,6 +17,11 @@ header {
     background-color: rgb(49, 48, 48);
 }
 
+nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
 .container-search {
     display: flex;
     gap: 5px;
@@ -25,36 +30,17 @@ header {
     background-color: white;
 }
 
-
-/* .search-bar div {
-    padding: 10px;
-} */
-.search-bar i {
-    font-size: 24px;
-    color: aqua;
-}
-
-.search-bar input::placeholder {
-    color: aqua;
-}
-
-.search-bar input {
-    outline: 0;
-    border: none;
-}
-
-
 /* ***************
-    home style
+    main style
 ******************/
-
-#home, #about {
+#contact {
     background-color: black;
     display: flex;
     gap: 5rem;
     padding: 0 2rem;
     height: calc(100vh - 5rem);
 }
+
 
 .icon, .text {
     color: white;
@@ -99,12 +85,3 @@ header {
 .socials-icon i {
     color: white;
 }
-
-/* ***************
-    about style
-******************/
-
-
-/* ***************
-    contact style
-******************/
