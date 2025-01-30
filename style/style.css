@@ -1,5 +1,6 @@
 :root{
     --primary-color: #097e68;
+    --about-color-card: rgba(41, 19, 150, 0.678);
 }
 
 * {
@@ -85,7 +86,7 @@ button {
     home style
 ******************/
 
-#home{
+#home, #about, #contact{
     position: relative;
     background-image: url(/assets/ne.jpg);
     background-repeat: no-repeat;
@@ -97,7 +98,7 @@ button {
     height: calc(100vh - 5rem);
 }
 
-#home::before {
+#home::before, #about::before, #contact::before {
     content: '';
     position: absolute;
     top: 0;
@@ -202,8 +203,76 @@ button {
 /* ***************
     about style
 ******************/
+.about-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    z-index: 1;
+}
 
+.container-card {
+    display: flex;
+    gap: 2rem;
+}
+
+.our-team-card {
+    display: flex;
+    gap: 10px;
+    width: 180px;
+    background-color: rgba(44, 45, 45, 0.603);
+    padding: 10px;
+}
+
+.our-team-card h2 {
+    margin-left: 3rem;
+}
+
+.our-team-card small{
+    margin-top: 10px;
+    color: grey;
+    display: inline-block;
+}
+
+.our-team-card i {
+    color: var(--about-color-card);
+    font-size: 2rem;
+}
+
+.our-team-card button {
+    margin-top: 10px;
+    padding: 5px 1rem;
+    background-color: var(--about-color-card);
+    color: white;
+}
 
 /* ***************
     contact style
 ******************/
+
+.contact-text {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    z-index: 1;
+}
+
+.contact-text h1 {
+    font-size: 48px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 450px;
+    color: white;
+}
+
+form input, form textarea {
+    background-color: transparent;
+    border: 1px solid rgba(235, 238, 243, 0.801);
+    padding: 15px;
+}
