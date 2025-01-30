@@ -138,12 +138,6 @@ button {
     font-size: 48px;
 }
 
-/* .text button {
-    padding: .5rem;
-    background-color: rgb(109, 234, 205);
-    color: white;
-} */
-
 .socials-icon {
     display: flex;
     flex-direction: column;
@@ -175,6 +169,7 @@ button {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-bottom: 15px;
 }
 
 .card img {
@@ -195,9 +190,9 @@ button {
 
 .card button {
     margin: 10px;
-    padding: 5px;
+    padding: 5px 15px;
     color: white;
-    background-color: aqua;
+    background-color: var(--primary-color);
 }
 
 /* ***************
