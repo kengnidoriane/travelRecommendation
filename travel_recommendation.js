@@ -69,11 +69,10 @@ const btnSearch = document.getElementById('btnSearch');
 btnSearch.addEventListener('click', searchDestination);
 
 function clearSearch() {
-    let input = document.getElementById('destinationInput');
     console.log('hi');
-    
     resultDiv.innerHTML = '';
-    input = '';
+    document.getElementById('destinationInput').value = '';
+
 }
 
 const btnClear = document.getElementById('btnClear');
