@@ -27,6 +27,15 @@ header {
     background-color: rgb(49, 48, 48);
 }
 
+.logo {
+    display: flex;
+    gap: 5px;
+}
+
+.logo img {
+    width: 35px;
+}
+
 .logo p {
     color: white;
     font-size: 32px;
