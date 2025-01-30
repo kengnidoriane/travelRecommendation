@@ -26,6 +26,12 @@ header {
     background-color: rgb(49, 48, 48);
 }
 
+.logo p {
+    color: white;
+    font-size: 32px;
+    font-style: italic;
+}
+
 nav {
     display: flex;
     gap: 1.5rem;
