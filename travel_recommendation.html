@@ -19,12 +19,12 @@
         </nav>
         <div class="container-search">
             <div class="search-bar">
-                <input type="text" placeholder='Enter a destination or keyword'>
+                <input type="text" placeholder='Enter a destination or keyword' id="destinationInput">
                 <div>
                     <i class="fa-light fa-magnifying-glass"></i>
                 </div>
             </div>
-            <button>Search</button>
+            <button id="btnSearch">Search</button>
             <button>Clear</button>
         </div>
     </header>
@@ -50,6 +50,12 @@
                 </button>
             </div>
         </section>
+        <section>
+            <div class="top-research-line"></div>
+            <div id="result"></div>
+        </section>
     </main>
+
+    <script src="travel_recommendation.js"></script>
 </body>
 </html>
