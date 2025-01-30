@@ -48,7 +48,7 @@ header {
     home style
 ******************/
 
-#home {
+#home, #about {
     background-color: black;
     display: flex;
     gap: 5rem;
