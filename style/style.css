@@ -67,20 +67,19 @@ button {
     gap: 10px;
 }
 
-.search-bar div i {
+/* .search-bar div i {
     font-size: 24px;
     color: aqua;
-}
-
-.search-bar input::placeholder {
-    color: var(--primary-color);
-}
+} */
 
 .search-bar input {
     outline: 0;
     border: none;
 }
 
+.search-bar input::placeholder {
+    color: var(--primary-color);
+}
 
 /* ***************
     home style
@@ -146,6 +145,10 @@ button {
 
 .socials-icon i {
     color: white;
+}
+
+.socials-icon i:hover {
+    color: var(--primary-color);
 }
 
 
